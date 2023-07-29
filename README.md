@@ -1,7 +1,7 @@
 # Compilación de Java con Make
 Este repositorio contiene un archivo `Makefile` que permite compilar y generar un archivo `.jar` a partir de un archivo `Main.java` utilizando el compilador de Java y el programa `make`.
 ## Uso
-1. Asegúrate de tener instalado el compilador de Java (`javac`) en tu sistema.
+1. Asegúrate de tener instalado el compilador de Java (`javac`) en tu sistema(siempre esta en path de la jdk).
 2. Clona este repositorio o copia el archivo `Makefile` en el directorio donde se encuentra tu archivo `Main.java`.
 3. Ejecuta el siguiente comando para compilar el archivo `Main.java` y generar el archivo `Main.class` en la carpeta `build`, así como el archivo `java_con_make.jar` en el directorio principal:
 
@@ -31,6 +31,6 @@ make clean
 
 ## Comandos disponibles
 
-- `make`: Compila el archivo `Main.java` y genera el archivo `.jar`.
+- `make all`: Compila el archivo `Main.java` y genera el archivo `.jar`.
 - `make clean`: Elimina los archivos generados, incluyendo la carpeta `build` y el archivo `.jar`.
 
